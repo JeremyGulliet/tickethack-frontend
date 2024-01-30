@@ -1,18 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-        />
-        <link rel="stylesheet" href="style.css" />
-        <title>Document</title>
-    </head>
-    <body>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tickethack</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <a class="logo" href="/index.html">Tickethack</a>
+      <li>
+        <ul>
+          <a href="cart.html">Cart</a>
+        </ul>
+        <ul>
+          <a href="booking.html">Bookings</a>
+        </ul>
+      </li>
+    </header>
 
-        ...
+    <!-- main -->
+    <div class="main">
+      <!-- div 1 -->
+      <div class="div-1">
+        <h1>Explore the world effortlessly by train!</h1>
+        <p>
+          Compare, book and enjoy cheap prices for train tickets: your journey
+          starts on Tickethac
+        </p>
+      </div>
 
-        <script src="script.js"></script>
-    </body>
+      <!-- div 2 -->
+      <div class="div-2">
+        <!-- container 1 -->
+        <div class="container-1">
+          <input class="input-departure" type="text" placeholder="Departure" />
+          <input class="input-arrival" type="text" placeholder="Arrival" />
+          <input class="input-date" type="date" />
+          <button class="search-button">Search</button>
+        </div>
+
+        <!-- container 2 -->
+        <div class="container-2">
+          <img src="./images/train.png" alt="" />
+          <p>It's time to book your future trip.</p>
+        </div>
+      </div>
+
+      <!-- container 3 test -->
+      <div class="container-2">
+        <div class="book">
+          <span class="book-travel">Trajet</span>
+          <span class="book-hours">Heure</span>
+          <span class="book-price">Prix</span>
+          <button class="book-button">Book</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- javascript -->
+    <script src="script.js"></script>
+  </body>
 </html>
