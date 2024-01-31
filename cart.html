@@ -1,26 +1,53 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>cart</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="cart.css" />
+  </head>
+  <body>
     <!-- header -->
     <header class="header">
-        <a class="logo" href="/index.html">Tickethack</a>
-        <li>
-          <ul>
-            <a href="cart.html">Cart</a>
-          </ul>
-          <ul>
-            <a href="booking.html">Bookings</a>
-          </ul>
-        </li>
-      </header>
+      <a class="logo" href="/index.html">Tickethack</a>
+      <li>
+        <ul>
+          <a href="cart.html">Cart</a>
+        </ul>
+        <ul>
+          <a href="booking.html">Bookings</a>
+        </ul>
+      </li>
+    </header>
+
+    <!-- main -->
+    <div class="cart-main">
+      <!-- div default -->
+      <!-- <div class="cart-empty">
+        <p class="cart-text-1">No tickets in your cart.</p>
+        <div class="cart-separateur-vide"></div>
+        <p class="cart-text-2">Why not plan a trip?</p>
+      </div> -->
+
+      <!-- div mycart -->
+      <div class="cart-mycart">
+        <p class="cart-mycart-text">My cart</p>
+        <div class="cart-separateur-vide"></div>
+        <div class="cart-book">
+          <span class="cart-book-travel">Trajet</span>
+          <span class="cart-book-hours">Heure</span>
+          <span class="cart-book-price">Prix</span>
+          <button class="cart-book-button">X</button>
+        </div>
+        <div class="cart-total">
+          <p class="cart-total-text">Total</p>
+          <button class="cart-total-button">Purchase</button>
+        </div>
+      </div>
+    </div>
 
     <!-- javascript -->
-    <script src="script.js"></script></body>
+    <script src="script.js"></script>
+  </body>
 </html>
