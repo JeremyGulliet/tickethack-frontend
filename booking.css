@@ -7,7 +7,7 @@
   /* border: gainsboro solid 1px; */
 }
 
-.cart-main {
+.booking-main {
   width: 100%;
   height: calc(100vh - 60px);
   background-color: rgb(69, 157, 133, 0.25);
@@ -18,7 +18,7 @@
   gap: 20px;
 }
 
-.cart-empty {
+.booking-empty {
   padding: 10px;
   background-color: #fff;
   width: 600px;
@@ -30,12 +30,13 @@
   border-radius: 8px;
 }
 
-.cart-separateur-vide {
+.booking-separateur-vide {
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
-.cart-mycart {
+.booking {
+  font-size: 14px;
   padding: 20px;
   background-color: #fff;
   width: 600px;
@@ -44,12 +45,11 @@
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  border-radius: 8px 8px 0 0;
-  font-size: 14px;
+  border-radius: 8px;
   /* overflow: auto; */
 }
 
-.cart-book {
+.booking-book {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -57,13 +57,13 @@
   background-color: #f4eeee;
   border-radius: 4px;
   border: none;
-  padding: 10px;
+  padding: 15px;
   font-weight: 500;
   font-size: 12px;
   width: 100%;
 }
 
-.cart-book-button {
+.booking-book-button {
   padding: 5px 10px;
   background-color: #459d85;
   color: white;
@@ -72,7 +72,7 @@
   cursor: pointer;
 }
 
-.cart-total {
+.booking-total {
   height: auto;
   width: 600px;
   padding: 20px;
@@ -86,12 +86,11 @@
   border-radius: 0 0 8px 8px;
 }
 
-.cart-book-succes {
+.booking-book-succes {
   color: #459d85;
   font-weight: 500;
-  font-size: small;
+  font-size: 14px;
   padding-top: 20px;
   margin-top: 30px;
   border-top: 1px solid #00153e;
-  padding-bottom: 10px;
 }
